@@ -1,0 +1,132 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+	color: whitesmoke;
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+}
+
+#clock {
+	border: 2px solid white;
+	border-radius: 100%;
+	width: 500px;
+	height: 500px;
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	z-index: -1;
+}
+
+.digit {
+	font-size: 1.4em;
+	font-weight: 900;
+}
+
+#c1 {
+	position: fixed;
+	top: 90px;
+	left: 410px;
+}
+
+#c2 {
+	position: fixed;
+	top: 175px;
+	left: 495px;
+}
+
+#c3 {
+	position: fixed;
+	top: 285px;
+	left: 520px;
+}
+
+#c4 {
+	position: fixed;
+	top: 400px;
+	left: 495px;
+}
+
+#c5 {
+	position: fixed;
+	top: 490px;
+	left: 410px;
+}
+
+#c6 {
+	position: fixed;
+	top: 520px;
+	left: 296px;
+}
+
+#c7 {
+	position: fixed;
+	top: 490px;
+	left: 180px;
+}
+
+#c8 {
+	position: fixed;
+	top: 400px;
+	left: 95px;
+}
+
+#c9 {
+	position: fixed;
+	top: 285px;
+	left: 65px;
+}
+
+#c10 {
+	position: fixed;
+	top: 175px;
+	left: 95px;
+}
+
+#c11 {
+	position: fixed;
+	top: 90px;
+	left: 175px;
+}
+
+#c12 {
+	position: fixed;
+	top: 60px;
+	left: 290px;
+}
+
+#hours {
+	border: 1px solid white;
+	background-color: yellow;
+	width: 100px;
+	height: 5px;
+	position: fixed;
+	top: 298px;
+	left: 300px;
+	transform: rotate(270deg);
+	transform-origin: 0% 50%;
+}
+
+#minutes {
+	border: 3px solid blue;
+	width: 200px;
+	position: fixed;
+	top: 299px;
+	left: 300px;
+	transform: rotate(0deg);
+	transform-origin: 0% 50%;
+}
+
+#seconds {
+	border: 1px solid green;
+	width: 210px;
+	position: fixed;
+	top: 300px;
+	left: 300px;
+	transform: rotate(41deg);
+	transform-origin: 0% 50%;
+}
